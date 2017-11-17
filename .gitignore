@@ -25,11 +25,10 @@ build/Release
 # Dependency directory
 node_modules/
 
-# Babel compiled sources
-lib/
-
-# UMD distribution
-dist/
+src
+coverage
+examples
+test
 
 # Miscellaneous
 *~
