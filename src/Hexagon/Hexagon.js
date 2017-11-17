@@ -120,7 +120,7 @@ class Hexagon extends Component {
         onDrop={e => this.onDrop(e)}
       >
         <g className="hexagon">
-          <polygon points={points} fill={fillId} style={cellStyle} />
+          <polygon points={points} fill={fillId} style={cellStyle} {...this.props} />
           {this.props.children}
         </g>
       </g>
